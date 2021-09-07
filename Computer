@@ -13,7 +13,7 @@ class Computer {
 	String storageType;
 	String batteryModel;
 	String batteryType;
-	
+	String diskDrive;
 	String osName;
 	
 	int osVersion;
