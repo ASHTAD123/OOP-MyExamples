@@ -1,0 +1,43 @@
+abstract class Computer{
+
+	abstract void PowerOn();
+	abstract void PowerOff();
+	abstract void Restart();
+
+	void type(){
+		Sopln("Computer" );
+	}
+}
+
+class User1 extends Computer {
+	
+	 @Override
+	 void PowerOn(){
+		Sopln("Power on by button " );
+	}
+	 @Override
+	 void PowerOff(){
+		Sopln("Power Off by button " );
+	}
+	 @Override
+	abstract void Restart(){
+		Sopln("Restart by button " );
+	}		
+		
+}
+class User2 extends Computer {
+	
+	 @Override 
+	void PowerOn(){
+		Sopln("Power on by tapping 2 times " );
+	}
+	 @Override
+	 void PowerOff(){
+		Sopln("Power Off by command " );
+	}
+	 @Override
+	 void Restart(){
+		Sopln("Restart by switch " );
+	}		
+		
+}

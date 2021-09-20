@@ -1,0 +1,28 @@
+abstract class JDK {
+
+	abstract void platformType();
+}
+
+class windows extends JDK{
+	
+	@Override
+	void platformType(){
+		Sopln(" JDK For windows ");
+	}
+}
+
+class linux extends JDK{
+	
+	@Override
+	void platformType(){
+		Sopln(" JDK For Linux ");
+	}
+}
+
+class solaris extends JDK{
+	
+	@Override
+	void platformType(){
+		Sopln(" JDK For Solaris ");
+	}
+}

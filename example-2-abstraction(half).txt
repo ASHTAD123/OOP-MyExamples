@@ -1,0 +1,61 @@
+
+abstract class Electronics{
+	
+	public abstract void Laptop();
+	public abstract void TV();
+	public abstract void Fridge();
+
+	public void type(){		
+		System.out.println(" This is an electronic device ");
+	}
+
+}
+
+class Laptop extends Electronics {
+
+	@Override
+	public void Laptop(){
+
+		System.out.println(" Laptop  ");
+	}
+
+	@Override
+	public void type(){
+
+		System.out.println(" This is an electronic device of type Laptop ");
+	}
+
+}
+
+
+class TV extends Electronics {
+
+	@Override
+	public void TV(){
+
+		System.out.println(" TV  ");
+	}
+
+	@Override
+	public void type(){
+
+		System.out.println(" This is an electronic device of type TV ");
+	}
+
+}
+
+class Fridge extends Electronics {
+
+	@Override
+	public void Fridge(){
+
+		System.out.println(" Fridge ");
+	}
+
+	@Override
+	public void type(){
+
+		System.out.println(" This is an electronic device of type Fridge ");
+	}
+
+}

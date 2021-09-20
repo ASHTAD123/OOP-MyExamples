@@ -1,0 +1,45 @@
+class Management {
+
+	String managementName = " " ;
+ 	String typeOfManagement = " " ;	
+	String workOfManagement =  " " ;
+
+	abstract void  managementName();
+	abstract void  typeOfManagement();
+	abstract void  workOfManagement();
+}
+
+class Society extends Management{
+	
+	 @Override
+	 void  managementName(){
+		Sopln(" Society Management " );
+	 }
+	
+	@Override 
+	 void  typeOfManagement(){
+		Sopln(" Building Management " );
+	 }
+	
+	@Override
+	 void  workOfManagement(){
+		Sopln(" Work of Society Management " );
+	}
+}
+class Hospital extends Management{
+	
+	 @Override
+	 void  managementName(){
+		Sopln(" Hospital  Management " );
+	 }
+	
+	@Override 
+	 void  typeOfManagement(){
+		Sopln(" Medical Management " );
+	 }
+	
+	@Override
+	 void  workOfManagement(){
+		Sopln(" Work of Hospital Management " );
+	}
+}

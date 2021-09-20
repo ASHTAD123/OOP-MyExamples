@@ -1,0 +1,42 @@
+abstract class Android {
+	
+	String minProcessor =  " ";
+	Image  logo =  @ ;
+	
+	public void abstract customizeYourOwnUI();
+	public void abstract customizeYourOwnHardware();
+	public void abstract customizeYourOwnAndroidFlavour();
+	
+
+    	
+	public void specs {
+			Sopln(minProcessor);
+			Sopln(logo);
+
+	}
+	
+} 
+
+class motorola extends Android{
+
+	public void abstract customizeYourOwnUI(){
+		
+		Sopln(motoUI);
+
+	}
+	
+    @Override
+	public void abstract customizeYourOwnHardware(){
+		
+		Sopln(motoHardware);
+
+	}
+	
+    @Override
+	public void abstract customizeYourOwnAndroidFlavour(){
+
+		Sopln(motoCustomAndroid);
+	}
+	
+
+}
