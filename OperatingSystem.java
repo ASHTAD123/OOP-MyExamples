@@ -37,7 +37,7 @@ class apple implements OperatingSystem {
 		}
 		void bootingMechanism(){
 			System.out.println(" Booting apple ");
-		}
+		} 
 		
 		void loginMechanism(){
 			System.out.println(" Login mechanism apple ");
